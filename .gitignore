@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database files
+database/*.sqlite
+database/*.sqlite-shm
+database/*.sqlite-wal
+
+# Profile data
+profiles/
+!profiles/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Extensions
+extensions/*.crx
+extensions/*.zip
+extensions/*.xpi
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Electron
+out/
